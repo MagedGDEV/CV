@@ -1,0 +1,86 @@
+body { 
+    margin: 0;
+    overflow-x: hidden;
+}
+
+hr {
+    border-style: dotted;
+    border-bottom: none;
+    border-width: 4px;
+    width: 10%;
+}
+
+h1, h2, h3, h4, p{ 
+    margin-top: 0;
+}
+
+.pImage {
+    
+    position: relative;
+    left: 300px; 
+    bottom: 180px;
+}
+
+.greeting {
+    
+    position: relative;
+    top: 250px;
+    margin: 0 auto;
+    right: 200px;
+    width: 500px;
+    color :#DBDFFD;
+    text-align: left;
+    
+}
+
+.intro {
+    background-color: #646FD4;
+    margin: 0;
+    text-align: center;
+}
+
+.projects {
+    padding: 40px;
+    text-align: center;
+    background-color: #9BA3EB;
+    color: #DBDFFD;
+}
+
+.cppLogo{
+    height: 95px; 
+}
+
+.leftImage{
+    float: left;
+    margin-right: 20px;
+}
+
+.rightImage{
+    float: right;
+    margin-left: 20px;
+}
+.leftDescription {
+    width: 600px;
+    position: relative;
+    right: 150px;
+    
+}
+
+.proj {
+    margin-bottom: 100px;
+}
+
+.leftProject{
+    margin: 0 auto 40px auto;
+    text-align: left;
+    
+}
+.rightDescription {
+    width: 600px;
+    position: relative;
+    left: 500px;
+}
+.rightProject {
+    
+    text-align: left;
+}
