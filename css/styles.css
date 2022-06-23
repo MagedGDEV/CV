@@ -7,10 +7,10 @@ body {
 hr {
     border-style: dotted;
     border-bottom: none;
-    border-width: 4px;
-    width: 10%;
+    border-width: 8px;
+    width: 5%;
     margin:auto;
-    color: #DBDFFD;
+    color: grey;
 }
 
 h1, h2, h3, h4, p{ 
@@ -58,6 +58,10 @@ h1, h2, h3, h4, p{
     height: 95px; 
 }
 
+.proHeaders{
+    color: gray;
+}
+
 .leftImage{
     float: left;
     margin-right: 20px;
@@ -98,4 +102,21 @@ h1, h2, h3, h4, p{
     margin: 0 auto 40px auto;
     text-align: left;
     
+}
+
+.skills {
+    padding: 20px;
+    background-color: #646FD4;
+    color: #DBDFFD;
+    text-align: center;
+    height: 150px;
+    
+}
+
+.skillImages{
+    float: left;
+    margin-left: 10px;
+    margin-right: 26px;
+    position: relative;
+    bottom: 20px;
 }
