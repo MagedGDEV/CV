@@ -1,6 +1,6 @@
 body { 
     margin: 0;
-    overflow-x: hidden;
+    
     
 }
 
@@ -50,7 +50,7 @@ h1, h2, h3, h4, p{
     color: #DBDFFD;
 }
 
-.pro{
+.headers{
     margin-bottom: 40px;
 }
 
@@ -109,14 +109,25 @@ h1, h2, h3, h4, p{
     background-color: #646FD4;
     color: #DBDFFD;
     text-align: center;
-    height: 150px;
+    display: inline-block;
+    width: 100%;
+
     
 }
 
 .skillImages{
-    float: left;
-    margin-left: 10px;
-    margin-right: 26px;
+    
     position: relative;
     bottom: 20px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.whyChooseMe{
+    padding: 20px;
+    background-color: #9BA3EB;
+    color: #DBDFFD;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
 }
